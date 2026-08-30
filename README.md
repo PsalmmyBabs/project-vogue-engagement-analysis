@@ -9,7 +9,8 @@ An interactive Power BI report analysing participation, retention and satisfacti
 **Role:** Data Analyst — data cleaning, measure design, report build, reporting  
 **Deliverables:** [Presentation](https://docs.google.com/presentation/d/1tl-TPSjMVn28lOxle57ZVBwVHxOHzICa/edit?usp=drive_link&ouid=114818397241570940294&rtpof=true&sd=true)
 
-![Project Vogue dashboard — Summary page](images/dashboard-summary.png)
+Project Vogue Dashboard — Summary Page
+<img width="2000" height="1131" alt="image" src="https://github.com/user-attachments/assets/48a06ad5-3674-4ce9-af59-9cba22f9279b" />
 
 ---
 
