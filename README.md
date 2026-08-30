@@ -10,7 +10,7 @@ An interactive Power BI report analysing participation, retention and satisfacti
 **Deliverables:** [Presentation](https://docs.google.com/presentation/d/1tl-TPSjMVn28lOxle57ZVBwVHxOHzICa/edit?usp=drive_link&ouid=114818397241570940294&rtpof=true&sd=true)
 
 Project Vogue Dashboard — Summary Page
-<img width="2000" height="1131" alt="image" src="https://github.com/user-attachments/assets/48a06ad5-3674-4ce9-af59-9cba22f9279b" />
+<img width="1300" height="650" alt="image" src="https://github.com/user-attachments/assets/48a06ad5-3674-4ce9-af59-9cba22f9279b" />
 
 ---
 
@@ -30,9 +30,9 @@ Project Vogue Dashboard — Summary Page
 
 ## Programme context
 
-Project Vogue delivers Yoruba cultural heritage sessions across three programme strands. Every attendee completes a short exit survey covering what they learned, what they would improve, and how likely they are to recommend the programme.
+Project Vogue delivers Yoruba cultural heritage sessions across three programme events. Every attendee completes a short exit survey covering what they learned, what they would improve, and how likely they are to recommend the programme.
 
-| Strand | Sessions | Attendances | Focus |
+| Events | Sessions | Attendances | Focus |
 |---|---|---|---|
 | Storytelling | 8 | 300 | Folktales, proverbs, Aroko symbolic messaging, Yoruba greetings |
 | Rehearsal | 7 | 250 | Performance preparation, costume, camera work, cultural practice |
@@ -51,7 +51,7 @@ Heritage programmes are usually evaluated on headcount alone. Because Project Vo
 | Period | October 2024 – April 2025 |
 | Missing values | None |
 
-Fields cover participant identity, gender, self-described audience type, programme strand, attendance date, referral score, and two free-text responses that were categorised into standard themes.
+Fields cover participant identity, gender, self-described audience type, programme event, attendance date, referral score, and two free-text responses that were categorised into standard themes.
 
 The published report reflects a later data refresh totalling 560 attendances across 16 sessions. Headline KPIs quoted below come from the refreshed report; demographic and referral distributions come from the 517-response extract.
 
@@ -162,7 +162,8 @@ The report uses two interaction mechanisms that compound: cross-filtering within
 
 Every session opens here — 560 attendances, 66 participants, 9.45 rating, 16 sessions. All nine visuals are live, and clicking any element cross-filters the rest.
 
-![Summary page, unfiltered](images/dashboard-summary.png)
+Summary page, unfiltered
+<img width="1300" height="650" alt="image" src="https://github.com/user-attachments/assets/48a06ad5-3674-4ce9-af59-9cba22f9279b" />
 
 ### Cross-filtering: one click, nine visuals
 
@@ -170,37 +171,31 @@ Selecting a slice of the event donut filters the KPI cards, session bars, learni
 
 **Rehearsal selected** — participation falls from 560 to 250, unique participants from 66 to 50, and Storytelling sessions drop to 0.
 
-![Summary page cross-filtered to Rehearsal](images/cross-filter-rehearsal.png)
+Summary page cross-filtered to Rehearsal
+<img width="1300" height="650" alt="image" src="https://github.com/user-attachments/assets/738093de-b17f-42ae-9939-39e3ae907a48" />
 
 **Storytelling selected** — 300 attendances, 55 participants, and the learnings table rescopes so "Traditional outfit styles" (77 mentions) is now Storytelling-only.
 
-![Summary page cross-filtered to Storytelling](images/cross-filter-storytelling.png)
+Summary page cross-filtered to Storytelling
+<img width="1300" height="650" alt="image" src="https://github.com/user-attachments/assets/d8ce3012-3432-401e-ac75-10944244b896" />
 
 **Oral History selected** — at 10 attendances the word cloud stops being a cloud. With only three comments remaining, each is fully readable. Filtering here changes what the visual is useful for, not just its scale.
 
-![Summary page cross-filtered to Oral History](images/cross-filter-oral-history.png)
+Summary page cross-filtered to Oral History
+<img width="1300" height="650" alt="image" src="https://github.com/user-attachments/assets/6d95ec23-d4db-4bde-b119-66d005f2d8f2" />
 
 ### Drill-through: strand pages, filtered further
 
 The left-hand navigation moves to a dedicated page per strand. Those pages can then be cross-filtered again, stacking the two mechanisms.
 
 **Rehearsal — isolating a single recommendation.** Clicking the "Next rehearsal" bar shows that 119 of 250 attendances (47.6%) requested it, across 39 unique participants.
-
-| No filter · 250 attendances | "Next rehearsal" selected · 119 |
-|---|---|
-| ![Rehearsal page unfiltered](images/drill-rehearsal-before.png) | ![Rehearsal page filtered](images/drill-rehearsal-after.png) |
+<img width="1262" height="545" alt="image" src="https://github.com/user-attachments/assets/defc9779-47a9-4ff8-8dbe-e6de0ada7caf" />
 
 **Storytelling — isolating the final two sessions.** The clearest read in the report: filtering to the last two sessions drops "Next workshop" from 56 mentions to **zero**. Once the strand's final session had passed, nobody asked for another one.
-
-| No filter · 300 attendances | Final two sessions · 75 |
-|---|---|
-| ![Storytelling page unfiltered](images/drill-storytelling-before.png) | ![Storytelling page filtered](images/drill-storytelling-after.png) |
+<img width="1255" height="535" alt="image" src="https://github.com/user-attachments/assets/6715d8bb-703d-4a07-89f7-77d75042f1db" />
 
 **Oral History — a perfect score emerges.** Every participant who asked for more costumes or villain stories gave a 10.00 referral score; the four who asked for more hero stories are the only reason the strand average sits at 9.80. With six people, this is suggestive rather than conclusive — a thread worth following up, not a settled finding.
-
-| No filter · 10 attendances | Costumes + villains · 6 |
-|---|---|
-| ![Oral History page unfiltered](images/drill-oral-history-before.png) | ![Oral History page filtered](images/drill-oral-history-after.png) |
+<img width="1256" height="536" alt="image" src="https://github.com/user-attachments/assets/e71742ba-f533-4131-8d1f-6480139763f1" />
 
 ---
 
@@ -223,14 +218,6 @@ The left-hand navigation moves to a dedicated page per strand. Those pages can t
 **Unique Participants and Total Participation are deliberately distinct measures.** The same person attending multiple sessions counts once in the former and multiple times in the latter. Collapsing them is the most common way this kind of report goes wrong.
 
 **Colour identity is fixed per strand** across all four pages — Storytelling gold (`#C9A227`), Rehearsal green (`#6FA287`), Oral History blue (`#7FB2D9`) — so a colour never means two different things.
-
----
-
-## Data and privacy
-
-Participant names in the source data were used solely to deduplicate attendance records and are not included in this repository. All published figures are aggregate.
-
-The dataset belongs to MYEC and is shared here in summarised form for portfolio purposes.
 
 ---
 
