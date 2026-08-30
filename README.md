@@ -6,7 +6,8 @@ Interactive Power BI report analysing participation, retention and satisfaction 
 An interactive Power BI report analysing participation, retention and satisfaction across 16 Yoruba cultural heritage sessions delivered by MYEC between October 2024 and April 2025.
 
 **Tools:** Microsoft Power BI (data model, DAX measures, cross-filtering, drill-through) · Excel (data preparation)  
-**Role:** Data Analyst — data cleaning, measure design, report build, reporting  
+**Role:** Data Analyst
+
 **Deliverables:** [Presentation](https://docs.google.com/presentation/d/1tl-TPSjMVn28lOxle57ZVBwVHxOHzICa/edit?usp=drive_link&ouid=114818397241570940294&rtpof=true&sd=true)
 
 Project Vogue Dashboard — Summary Page
@@ -24,7 +25,6 @@ Project Vogue Dashboard — Summary Page
 - [Report interactivity](#report-interactivity)
 - [Recommendations](#recommendations)
 - [Measure design notes](#measure-design-notes)
-- [Data and privacy](#data-and-privacy)
 
 ---
 
@@ -52,8 +52,6 @@ Heritage programmes are usually evaluated on headcount alone. Because Project Vo
 | Missing values | None |
 
 Fields cover participant identity, gender, self-described audience type, programme event, attendance date, referral score, and two free-text responses that were categorised into standard themes.
-
-The published report reflects a later data refresh totalling 560 attendances across 16 sessions. Headline KPIs quoted below come from the refreshed report; demographic and referral distributions come from the 517-response extract.
 
 ---
 
@@ -218,12 +216,6 @@ The left-hand navigation moves to a dedicated page per strand. Those pages can t
 **Unique Participants and Total Participation are deliberately distinct measures.** The same person attending multiple sessions counts once in the former and multiple times in the latter. Collapsing them is the most common way this kind of report goes wrong.
 
 **Colour identity is fixed per strand** across all four pages — Storytelling gold (`#C9A227`), Rehearsal green (`#6FA287`), Oral History blue (`#7FB2D9`) — so a colour never means two different things.
-
----
-
-## Viewing the report
-
-The `.pbix` file can be opened with [Power BI Desktop](https://powerbi.microsoft.com/desktop/), which is free but Windows-only. A PDF export is included for anyone who would rather not install it, though the interactive filtering is only available in the `.pbix`.
 
 ---
 
